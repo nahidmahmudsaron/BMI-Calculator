@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#0F172A"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="24dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/headerProfileImage"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aa"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        app:strokeColor="#26A69A"
+        app:strokeWidth="2dp"/>
+
+    <TextView
+        android:id="@+id/headerNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="নাহিদ মাহমুদ স্মরণ"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/headerTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="অ্যান্ড্রয়েড অ্যাপ ডেভেলপার"
+        android:textColor="#94A3B8"
+        android:textSize="14sp"/>
+
+</LinearLayout>

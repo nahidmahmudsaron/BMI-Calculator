@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- মূল মেনু ক্যাটাগরি -->
+    <group android:checkableBehavior="none">
+
+        <!-- About Us -->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About Us"
+            android:checkable="true"/>
+
+        <!-- Settings -->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Settings"
+            android:checkable="true"/>
+
+        <!-- Contact Us -->
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Contact Us"
+            android:checkable="true"/>
+
+    </group>
+
+    <!-- ফিডব্যাক এবং রেটিং সেকশন (আলাদা ডিভাইডার সহ) -->
+    <item android:title="Feedback">
+        <menu>
+            <!-- Rate App -->
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Rate App"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
