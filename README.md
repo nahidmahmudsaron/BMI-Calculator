@@ -26,9 +26,3 @@ A clean, modern, and user-friendly **BMI (Body Mass Index) Calculator** Android 
 - **Min SDK:** Compatible with Android 5.0 (API Level 21) and above
 
 ---
-
-## 🚀 How to Run the Project
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/nahidmahmudsaron/BMI-Calculator.git](https://github.com/nahidmahmudsaron/BMI-Calculator.git)
